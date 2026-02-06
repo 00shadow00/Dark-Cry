@@ -49,4 +49,9 @@ export default function handler(req, res) {
     valid: false,
     reason: "device_mismatch"
   });
+,
+"KAYAPABA": {
+  device: "Kaa",
+  expiresAt: 1770390122001
+},
 }
