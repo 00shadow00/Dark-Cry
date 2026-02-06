@@ -1,12 +1,12 @@
 const keys = {
   "ABC123": {
-  device: null,
-  expiresAt: 1893456000000
-},
+    device: null,
+    expiresAt: 1893456000000 // Jan 1, 2030
+  },
   "DEF456": {
-  device: "device-aaa",
-  expiresAt: 1803744000000
-}
+    device: "device-aaa",
+    expiresAt: 1700000000000 // expired example
+  }
 };
 
 export default function handler(req, res) {
@@ -49,9 +49,4 @@ export default function handler(req, res) {
     valid: false,
     reason: "device_mismatch"
   });
-,
-"KAYAPABA": {
-  device: "Kaa",
-  expiresAt: 1770390122001
-},
 }
