@@ -8,6 +8,10 @@ const keys = {
   expiresAt: 1794672000000
 },
   
+  "IKAWBA": {
+    device: null,
+    expiresAt: 1770390817308
+  },
 };
 
 export default function handler(req, res) {
