@@ -7,6 +7,10 @@ const keys = {
   device: "device-aaa",
   expiresAt: 1794672000000
 }
+  "KAYAPABA": {
+    device: null,
+    expiresAt: 1770390711927
+  },
 };
 
 export default function handler(req, res) {
