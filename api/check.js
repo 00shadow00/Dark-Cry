@@ -4,8 +4,8 @@ const keys = {
     expiresAt: 1893456000000 // Jan 1, 2030
   },
   "DEF456": {
-  device: "device-aaaaa",
-  expiresAt: 1700000000000
+  device: "device-aaa",
+  expiresAt: 1794672000000
 }
 };
 
