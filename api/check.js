@@ -1,8 +1,8 @@
 const keys = {
   "ABC123": {
-    device: null,
-    expiresAt: 1893456000000 // Jan 1, 2030
-  },
+  device: "tr",
+  expiresAt: 1893456000000
+},
   "DEF456": {
   device: "device-aaa",
   expiresAt: 1803744000000
