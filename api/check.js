@@ -4,9 +4,9 @@ const keys = {
     expiresAt: 1893456000000 // Jan 1, 2030
   },
   "DEF456": {
-    device: "device-aaa",
-    expiresAt: 1700000000000 // expired example
-  }
+  device: "device-aaaaa",
+  expiresAt: 1700000000000
+}
 };
 
 export default function handler(req, res) {
